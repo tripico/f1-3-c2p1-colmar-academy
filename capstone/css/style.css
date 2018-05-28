@@ -1,0 +1,479 @@
+/* Main Styles */
+
+html {
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  width: 1024px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+/* Header Styles */
+.header {
+  padding: 1.5rem 1rem;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-mobile {
+  display: none;
+}
+
+.company-name {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  padding-left: 1.5rem;
+  font-weight: bold;
+  color: steelblue;
+}
+
+.company-name img {
+  height: 4rem;
+}
+
+.company-name span {
+  color: grey;
+  font-weight: normal;
+}
+
+.nav {
+  display: flex;
+  padding-right: 1.5rem;
+  font-size: 1rem;
+}
+
+.nav ul {
+  margin: .5rem 1rem;
+}
+
+.nav-mobile {
+  display: none;
+}
+
+/* Main Body Styles */
+
+/* Start Here Block-1 */
+.first-block {
+  background-color: steelblue;
+  padding: 2rem 1.5rem;
+  display: flex;
+  color: white;
+}
+
+.first-block-img {
+  width: 60%;
+}
+
+.first-block-img img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.start-here {
+  width: 40%;
+  margin-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.start-here h1 {
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+}
+
+.start-here h4 {
+  margin-top: 1.5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  width: 65%;
+  font-weight: bold;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  text-decoration: underline;
+}
+
+/* Keep Practicing Block-2 & Info Panes*/
+
+.second-block {
+  width: 100%;
+  display: flex;
+}
+
+.keep-learning {
+  width: 60%;
+}
+
+.learning-img {
+  padding: 2rem 1.5rem 1rem 1.5rem;
+}
+
+.learning-img img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.learning-content h1 {
+  padding: 1rem 1.5rem 0 1.5rem;
+}
+
+.learning-content p {
+  padding: 1.5rem;
+  font-size: .95rem;
+}
+
+.learning-content h6 {
+  padding: 0 1.5rem 2rem 1.5rem;
+  font-size: .8rem;
+}
+
+.info-pane {
+  width: 40%;
+  border-left: 1px solid steelblue;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1.5rem;
+}
+
+.info-pane h2 {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.info-pane p {
+  font-size: .85rem;
+  padding: .5rem 0rem;
+}
+
+.info-pane a {
+  background-color: black;
+  color: white;
+  padding: .5rem;
+  width: 50%;
+  border-radius: 15px;
+  font-size: .85rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.image-pane {
+  width: 35%;
+}
+
+.image-pane img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.mobile-image-pane {
+  display: none;
+}
+
+.mobile-image-pane img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.description {
+  width: 65%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.orientation,
+.campus, 
+.lecture {
+  padding: 1rem;
+  display: flex;
+}
+
+.orientation {
+  border-bottom: 1px solid steelblue;
+}
+
+.lecture {
+  background-color: steelblue;
+  color: white;
+}
+
+
+/* Start Learning Block-3 */
+.start-learning {
+  background-color: steelblue;
+}
+
+.start-learning h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  color: white;
+}
+
+.course-grid {
+  padding: 1rem 4.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.mobile-course-grid {
+  display: none;
+}
+
+.course {
+  background-color: white;
+  margin: 1rem;
+  width: 28%;
+  min-height: 17rem;
+}
+
+.course img {
+  height: auto;
+  width: 100%;
+}
+
+.course h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 1rem 1rem .5rem 1rem;
+  color: grey;
+}
+
+.course h4 {
+  padding: .5rem 1rem;
+  color: grey;
+}
+
+.course p {
+  padding: 0rem 1rem 1.5rem 1rem;
+  color: grey;
+  font-size: .8rem;
+  line-height: 1rem;
+}
+
+/* Thesis Block-4 */
+.thesis {
+  width: 100%;
+}
+
+.thesis-header {
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+.thesis-content {
+  display: flex;
+}
+
+.thesis .description{
+  display: block;
+}
+
+.thesis-content .info-pane {
+  border: none;
+}
+
+.thesis-vid {
+  width: 60%;
+  padding: 0rem 1.5rem;
+}
+
+.thesis-vid h3 {
+  font-weight: bold;
+  font-size: 1.25rem;
+  padding-top: 1.5rem;
+  padding-bottom: .5rem;
+}
+
+.thesis-vid p {
+  padding-bottom: 2rem;
+  font-size: .95rem;
+}
+
+.fisma, 
+.now-then {
+  padding: 1rem;
+  display: flex;
+}
+
+.fisma {
+  background-color: steelblue;
+  color: white;
+}
+
+/* Footer Styles */
+footer {
+  height: 2.5rem;
+  border-top: 1px solid grey;
+  padding: 1rem 1.5rem;
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-links {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-links ul {
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 560px) {
+  html {
+    width: 480px;
+  }
+
+  body {
+    line-height: 1.6;
+  }
+  /* Header Styles */
+  .header {
+    display: none;
+  }
+
+  .header-mobile {
+    padding: 1.5rem 1rem;
+    height: 64px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .header-mobile img {
+    height: 100%;
+    padding: 2rem, 2.5rem;
+  }
+  /* First Block Styles */
+  .first-block {
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first-block-img {
+    width: 100%;
+    padding: 0rem;
+  }
+
+  .start-here {
+    padding: 2rem 1rem;
+    margin: 0rem;
+    width: 100%;
+  }
+  /* Second Block Styles */
+  .keep-learning {
+    display: none;
+  }
+
+  .info-pane {
+    width: 100%;
+  }
+
+  .image-pane {
+    display: none;
+  }
+
+  .mobile-image-pane {
+    display: inherit;
+  }
+
+  .description {
+    padding: 1rem 2rem
+  }
+
+  .orientation,
+  .campus, 
+  .lecture {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    border: none;
+  }
+  /* Start Learning Block Styles */
+  .start-learning {
+    background-color: white;
+  }
+
+  .start-learning h1 {
+    color: black;
+  }
+
+  .course-grid {
+    display: none;
+  }
+
+  .mobile-course-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .mobile-course-grid ul {
+    padding: 1rem;
+  }
+
+  .mobile-course-grid li {
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+    padding: 1rem 1rem 1.5rem 1rem;
+    background-color: steelblue;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+  }
+  /*Thesis Styles */
+  .thesis-header {
+    padding-bottom: 1rem;
+  }
+
+  .thesis-content h3 {
+    display: none;
+  }
+
+  .thesis-content p {
+    display: none;
+  }
+
+  .thesis .info-pane {
+    display: none;
+  }
+
+  .thesis-vid {
+    width: 100%;
+    display: block;
+    padding: 0rem;
+    margin-bottom: 1.5rem;
+  }
+  /*Footer Styles */
+  footer {
+    padding: 0rem 1rem;
+    border: none;
+  }
+
+  .footer-links {
+    display: none;
+  }
+}
